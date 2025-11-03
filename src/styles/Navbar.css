@@ -120,6 +120,10 @@
   animation-delay: 0.4s;
 }
 
+.navbar__sidebar--open .navbar__nav-list > li:nth-child(5) {
+  animation-delay: 0.45s;
+}
+
 .navbar__nav-link {
   display: flex;
   align-items: center;

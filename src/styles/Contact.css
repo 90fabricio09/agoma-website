@@ -37,6 +37,11 @@
   padding: 2rem;
   border-radius: 1rem;
   background-color: hsl(42, 35%, 88%);
+  transition: box-shadow var(--transition-normal);
+}
+
+.contact__card:hover {
+  box-shadow: var(--shadow-lg);
 }
 
 .contact__icon {
