@@ -1,0 +1,40 @@
+.page {
+  min-height: 100vh;
+}
+
+.ifood-button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 50;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--color-accent);
+  color: white;
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-normal);
+}
+
+.ifood-button:hover {
+  background-color: hsl(25, 95%, 48%);
+  transform: scale(1.1);
+}
+
+.ifood-button__logo {
+  width: 1.75rem;
+  height: 1.75rem;
+  object-fit: contain;
+}
+
+/* Responsive */
+@media (min-width: 640px) {
+  .ifood-button {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
