@@ -1,4 +1,5 @@
 import '../styles/Footer.css';
+import logo from '../assets/Logo.png';
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="footer__wrapper">
           <div className="footer__content">
             <div className="footer__brand">
-              <h3 className="footer__brand-title">Agoma.</h3>
+              <img src={logo} alt="Agoma" className="footer__logo" />
               <p className="footer__brand-text">
                 Hambúrgueres artesanais que vão além do sabor. 
                 Uma experiência gastronômica única.

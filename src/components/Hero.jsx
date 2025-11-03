@@ -1,6 +1,7 @@
 import '../styles/Hero.css';
 import heroImage from '../assets/hero-burger.jpg';
 import cardapioPdf from '../assets/cardapio.pdf';
+import logo from '../assets/Logo.png';
 
 const Hero = () => {
   return (
@@ -13,9 +14,9 @@ const Hero = () => {
       
       <div className="container hero__content">
         <div className="hero__text-wrapper">
-          <h1 className="hero__title animate-slide-in">
-            Agoma.
-          </h1>
+          <div className="hero__logo-wrapper animate-slide-in">
+            <img src={logo} alt="Agoma" className="hero__logo" />
+          </div>
           <p className="hero__subtitle">
             Hambúrgueres artesanais feitos com paixão e ingredientes premium. 
             Cada mordida é uma experiência única.

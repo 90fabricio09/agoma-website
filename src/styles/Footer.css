@@ -28,6 +28,14 @@
   margin-bottom: 1rem;
 }
 
+.footer__logo {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  margin-bottom: 1rem;
+}
+
 .footer__brand-text {
   color: var(--color-primary-foreground);
   opacity: 0.8;
