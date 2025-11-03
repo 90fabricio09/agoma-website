@@ -1,6 +1,6 @@
 .contact {
   padding: 5rem 1rem;
-  background-color: hsl(42, 35%, 88%);
+  background-color: var(--color-background);
 }
 
 .contact__wrapper {
@@ -36,7 +36,7 @@
   text-align: center;
   padding: 2rem;
   border-radius: 1rem;
-  background-color: white;
+  background-color: hsl(42, 35%, 88%);
 }
 
 .contact__icon {

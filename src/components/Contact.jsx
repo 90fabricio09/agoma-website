@@ -61,7 +61,7 @@ const Contact = () => {
               <p className="contact__card-text">
                 Seg-Ter: 17h-22h<br />
                 Qua-Sex: 12h-23h<br />
-                Sáb-Dom: 17h-23h
+                Sáb-Dom: 18h-23h
               </p>
             </div>
           </div>

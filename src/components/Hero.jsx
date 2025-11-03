@@ -1,5 +1,5 @@
 import '../styles/Hero.css';
-import heroImage from '../assets/hero-burger.jpg';
+import heroImage from '../assets/IMG_1686.jpg';
 import cardapioPdf from '../assets/cardapio.pdf';
 import logo from '../assets/Logo.png';
 

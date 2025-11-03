@@ -40,7 +40,7 @@
   text-align: center;
   padding: 2rem;
   border-radius: 1rem;
-  background-color: white;
+  background-color: hsl(42, 35%, 88%);
   transition: box-shadow var(--transition-normal);
 }
 
@@ -55,8 +55,8 @@
   width: 4rem;
   height: 4rem;
   border-radius: var(--radius-full);
-  background-color: hsla(25, 95%, 53%, 0.1);
-  color: var(--color-accent);
+  background-color: hsla(122, 13%, 21%, 0.1);
+  color: var(--color-primary);
   margin-bottom: 1.5rem;
 }
 

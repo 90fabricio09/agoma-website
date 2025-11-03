@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Menu from '../components/Menu';
 import About from '../components/About';
+import Reviews from '../components/Reviews';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
@@ -20,6 +21,9 @@ const Index = () => {
       </div>
       <div id="about">
         <About />
+      </div>
+      <div id="reviews">
+        <Reviews />
       </div>
       <div id="contact">
         <Contact />
