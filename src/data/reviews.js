@@ -8,7 +8,7 @@ export const reviews = [
     rating: 5,
     text: "Excelente experiência no AGOMA.! Fui super bem atendido e o lanche Cheddar D’AGOMA é simplesmente o melhor da região. Recomendo muito!",
     date: "2025-09-01",
-    avatar: "/src/assets/fabricio-bettarello.png"
+    avatar: "https://media.discordapp.net/attachments/1257361928532135936/1399524205179174932/Betta_Icon.png?ex=6909da3c&is=690888bc&hm=ad13f31235cb16ecc35fef33771f037df85f7f5d514064a04ae325185e85dd6c&=&format=webp&quality=lossless&width=990&height=990"
  },  
  {
     name: "HELLEN ESTER CRESTANI LIMA",
@@ -31,4 +31,5 @@ export const averageRating = 0; // Exemplo: 4.8
 
 // Total de avaliações (opcional)
 export const totalRatings = 0; // Exemplo: 127
+
 
